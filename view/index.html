@@ -49,7 +49,6 @@
             width: 100%;
             padding: 0px;
             min-height: 600px;
-
         }
         .page-body-container{
             width: 75%;
@@ -81,13 +80,22 @@
 
         }
         @media screen and (max-width: 800px){
+            .page-body{
+                width: 100%;
+                padding: 0px;
+                min-height: 400px;
+            }
             .page-body-container{
-                width: 90%;
+                width: 99%;
                 margin: auto;
             }
             .page-footer-container{
                 width: 95%;
                 margin: auto;
+            }
+            .page-body-works-img{
+                width: 100%;
+                height: 600px;
             }
 
 
@@ -100,12 +108,9 @@
        <div style="" class="page-header-logo">
            <img src="../img/logo2.jpg" class="" style="width: 100%;height: 100%;" >
        </div>
-
    </div>
-   <div class="page-body">
-       <div class="page-body-container">
-
-
+   <div class="page-body" style="">
+       <div class="page-body-container" style="">
            <!--<div class="page-body-works">-->
            <!--<img src="../img/yajiao/yajiao1.jpg" style="width: 100%;height: 100%;">-->
            <!--</div>-->
@@ -118,8 +123,8 @@
                </ol>
                <!-- 轮播（Carousel）项目 -->
                <div class="carousel-inner">
-                   <div class="item active">
-                       <img src="../img/yajiao/yajiao1.jpg"  class="page-body-works-img" alt="First slide ">
+                   <div class="item active" >
+                       <img src="../img/yajiao/yajiao1.jpg"  class="page-body-works-img"  alt="First slide ">
                    </div>
                    <div class="item">
                        <img src="../img/yajiao/yajiao2.jpg" class="page-body-works-img" alt="Second slide">
